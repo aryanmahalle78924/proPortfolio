@@ -1,0 +1,36 @@
+.Card {
+  position: relative;
+}
+
+.wrap {
+  width: 25px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: #86c912;
+  position: absolute;
+  top: -10px;
+}
+
+.card {
+  width: 250px;
+  height: 100px;
+  margin-bottom: 170px;
+}
+
+.cardHead {
+  font-size: 20px;
+}
+
+.cardPara {
+  font-weight: 700;
+}
+
+.cardImg {
+  width: 130px;
+}
+
+.link {
+  color: #86c912;
+  font-weight: 700;
+  text-decoration: none;
+}

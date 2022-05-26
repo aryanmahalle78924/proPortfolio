@@ -1,0 +1,35 @@
+.qualifications {
+  width: 40%;
+  padding: 20px 0;
+}
+
+.qualiWrap {
+  width: 30px;
+  height: 5px;
+  background-color: #86c912;
+}
+
+.qualifications:nth-child(2),
+.qualifications:nth-child(4) {
+  width: 80%;
+  margin-left: -150px;
+}
+
+.qualifications:nth-child(1) {
+  margin-top: -35px;
+}
+
+.qualifications:nth-child(1),
+.qualifications:nth-child(3),
+.qualifications:nth-child(5) {
+  margin-left: 80px;
+}
+
+.qualifications:nth-child(3),
+.qualifications:nth-child(4) {
+  margin-top: 50px;
+}
+
+.qualifications:nth-child(5) {
+  margin-top: 50px;
+}

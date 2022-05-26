@@ -1,0 +1,18 @@
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutTitle {
+  font-size: 100px;
+  transform: translate(18%, -95%);
+  line-height: 85px;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 3;
+}

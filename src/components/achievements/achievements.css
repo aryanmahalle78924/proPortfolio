@@ -1,0 +1,32 @@
+.achievements {
+  display: flex;
+  margin-top: 30px;
+  min-height: 80vh;
+}
+
+.achievements .left {
+  flex: 4;
+  margin-left: 10px;
+  margin-top: -70px;
+}
+
+.achievements .left .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.achievements .right {
+  flex: 2;
+  width: 100px;
+  height: 400px;
+  background-color: #86c912;
+}
+
+.achievementHeader {
+  margin-top: 70px;
+  margin-left: 60px;
+  line-height: 90px;
+  color: white;
+  font-size: 90px;
+}

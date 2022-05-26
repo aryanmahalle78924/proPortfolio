@@ -1,0 +1,29 @@
+.navbar {
+  position: relative;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding-left: 100px;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.img_wrapper {
+  position: absolute;
+  top: 180px;
+  right: 90px;
+}
+
+.img_wrapper img {
+  width: 400px;
+  height: 400px;
+}

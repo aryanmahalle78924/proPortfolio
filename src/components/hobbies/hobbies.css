@@ -1,0 +1,59 @@
+.hobbies {
+  display: flex;
+  margin-top: 140px;
+  min-height: 90vh;
+  margin-bottom: -300px;
+  overflow-y: hidden;
+}
+
+.hobbies .left {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 90px;
+}
+
+.hobbies .left .hobbyTitle {
+  color: #86c912;
+  font-size: 70px;
+  line-height: 80px;
+  position: absolute;
+  top: 90px;
+  left: 60px;
+
+  overflow-y: hidden;
+}
+
+.hobbies .left .hobbyDescription {
+  position: absolute;
+  top: 340px;
+  left: 65px;
+  font-weight: 500;
+}
+
+.hobbies .right {
+  flex: 3;
+}
+
+.hobbies .right .gridContainer img {
+  margin-left: 60px;
+}
+
+.hobbies .right .gridContainer img:nth-child(2) {
+  margin-left: 430px;
+  transform: translate(0, -175%);
+}
+
+.hobbies .right .gridContainer img:nth-child(3) {
+  transform: translate(0, -110%);
+}
+
+.hobbies .right .gridContainer img:nth-child(4) {
+  transform: translate(125%, -445%);
+}
+
+.hobbies .right .gridContainer img:nth-child(5) {
+  transform: translate(5%, -172%);
+}

@@ -1,0 +1,17 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 390px;
+  height: 550px;
+  background-color: #86c912;
+  position: absolute;
+  top: -30px;
+  right: 13%;
+  z-index: 0;
+}
+
+.homeContainer {
+}
